@@ -1,0 +1,706 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChooseUserViewController"
+provides-nominal:
+- "C6TracMe24ChooseUserViewController"
+provides-member:
+- ["C6TracMe24ChooseUserViewController", ""]
+provides-dynamic-lookup:
+- "trackUserButton"
+- "viewDidLoad"
+- "prepareForSegue"
+- "didReceiveMemoryWarning"
+- "trackingEmail"
+- "search"
+- "appMovedToBackground"
+- "searchBar"
+- "myEmail"
+- "scared"
+- "ref"
+depends-top-level:
+- "Dictionary"
+- !private "NSStringCompareOptions"
+- "BooleanLiteralType"
+- "ChooseUserViewController"
+- !private "NSNotificationCenter"
+- !private "NSNull"
+- "Firebase"
+- "UIStoryboardSegue"
+- !private "NSDictionary"
+- !private "!"
+- !private "!="
+- "UISearchBar"
+- !private "TrackFriendViewController"
+- "StringLiteralType"
+- !private "UIApplicationWillResignActiveNotification"
+- !private "ChooseMapViewController"
+- !private "print"
+- "AnyObject"
+- "UnicodeScalarType"
+- "UIViewController"
+- "String"
+- !private "+"
+depends-member:
+- ["PSs9AnyObject", "Firebase"]
+- !private ["PSs9AnyObject", "NSNotificationCenter"]
+- !private ["PSs9AnyObject", "NSStringCompareOptions"]
+- !private ["PSs9AnyObject", "UIApplicationWillResignActiveNotification"]
+- !private ["PSs9AnyObject", "addObserver"]
+- ["PSs9AnyObject", "appMovedToBackground"]
+- !private ["PSs9AnyObject", "childByAppendingPath"]
+- !private ["PSs9AnyObject", "defaultCenter"]
+- !private ["PSs9AnyObject", "description"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "myEmail"]
+- !private ["PSs9AnyObject", "observeAuthEventWithBlock"]
+- !private ["PSs9AnyObject", "observeEventType"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- ["PSs9AnyObject", "prepareForSegue"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "ref"]
+- ["PSs9AnyObject", "scared"]
+- ["PSs9AnyObject", "search"]
+- ["PSs9AnyObject", "searchBar"]
+- !private ["PSs9AnyObject", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs9AnyObject", "subscript"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "trackUserButton"]
+- ["PSs9AnyObject", "trackingEmail"]
+- !private ["PSs9AnyObject", "updateChildValues"]
+- !private ["PSs9AnyObject", "value"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "LiteralSearch"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo25CLLocationManagerDelegate", "myEmail"]
+- !private ["PSo25CLLocationManagerDelegate", "trackingEmail"]
+- ["PSs11CVarArgType", "Firebase"]
+- !private ["PSs11CVarArgType", "NSNotificationCenter"]
+- !private ["PSs11CVarArgType", "NSStringCompareOptions"]
+- !private ["PSs11CVarArgType", "UIApplicationWillResignActiveNotification"]
+- !private ["PSs11CVarArgType", "addObserver"]
+- ["PSs11CVarArgType", "appMovedToBackground"]
+- !private ["PSs11CVarArgType", "childByAppendingPath"]
+- !private ["PSs11CVarArgType", "defaultCenter"]
+- !private ["PSs11CVarArgType", "description"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "myEmail"]
+- !private ["PSs11CVarArgType", "observeAuthEventWithBlock"]
+- !private ["PSs11CVarArgType", "observeEventType"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- ["PSs11CVarArgType", "prepareForSegue"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "ref"]
+- ["PSs11CVarArgType", "scared"]
+- ["PSs11CVarArgType", "search"]
+- ["PSs11CVarArgType", "searchBar"]
+- !private ["PSs11CVarArgType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs11CVarArgType", "subscript"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "trackUserButton"]
+- ["PSs11CVarArgType", "trackingEmail"]
+- !private ["PSs11CVarArgType", "updateChildValues"]
+- !private ["PSs11CVarArgType", "value"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["C6TracMe23ChooseMapViewController", "myEmail"]
+- ["C6TracMe24ChooseUserViewController", "AnyObject"]
+- !private ["C6TracMe24ChooseUserViewController", "ChooseMapViewController"]
+- ["C6TracMe24ChooseUserViewController", "Firebase"]
+- !private ["C6TracMe24ChooseUserViewController", "NSDictionary"]
+- !private ["C6TracMe24ChooseUserViewController", "NSNotificationCenter"]
+- !private ["C6TracMe24ChooseUserViewController", "NSNull"]
+- !private ["C6TracMe24ChooseUserViewController", "NSStringCompareOptions"]
+- ["C6TracMe24ChooseUserViewController", "String"]
+- !private ["C6TracMe24ChooseUserViewController", "TrackFriendViewController"]
+- !private ["C6TracMe24ChooseUserViewController", "UIApplicationWillResignActiveNotification"]
+- ["C6TracMe24ChooseUserViewController", "UISearchBar"]
+- ["C6TracMe24ChooseUserViewController", "UIStoryboardSegue"]
+- ["C6TracMe24ChooseUserViewController", "appMovedToBackground"]
+- ["C6TracMe24ChooseUserViewController", "deinit"]
+- ["C6TracMe24ChooseUserViewController", "didReceiveMemoryWarning"]
+- ["C6TracMe24ChooseUserViewController", "init"]
+- ["C6TracMe24ChooseUserViewController", "myEmail"]
+- !private ["C6TracMe24ChooseUserViewController", "performSegueWithIdentifier"]
+- ["C6TracMe24ChooseUserViewController", "prepareForSegue"]
+- !private ["C6TracMe24ChooseUserViewController", "print"]
+- ["C6TracMe24ChooseUserViewController", "ref"]
+- ["C6TracMe24ChooseUserViewController", "scared"]
+- ["C6TracMe24ChooseUserViewController", "search"]
+- ["C6TracMe24ChooseUserViewController", "searchBar"]
+- ["C6TracMe24ChooseUserViewController", "trackUserButton"]
+- ["C6TracMe24ChooseUserViewController", "trackingEmail"]
+- ["C6TracMe24ChooseUserViewController", "viewDidLoad"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs10Comparable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "stringByReplacingOccurrencesOfString"]
+- ["PSs23CustomStringConvertible", "Firebase"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["PSs23CustomStringConvertible", "NSStringCompareOptions"]
+- !private ["PSs23CustomStringConvertible", "UIApplicationWillResignActiveNotification"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addObserver"]
+- ["PSs23CustomStringConvertible", "appMovedToBackground"]
+- !private ["PSs23CustomStringConvertible", "childByAppendingPath"]
+- !private ["PSs23CustomStringConvertible", "defaultCenter"]
+- !private ["PSs23CustomStringConvertible", "description"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "myEmail"]
+- !private ["PSs23CustomStringConvertible", "observeAuthEventWithBlock"]
+- !private ["PSs23CustomStringConvertible", "observeEventType"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "ref"]
+- ["PSs23CustomStringConvertible", "scared"]
+- ["PSs23CustomStringConvertible", "search"]
+- ["PSs23CustomStringConvertible", "searchBar"]
+- !private ["PSs23CustomStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "trackUserButton"]
+- ["PSs23CustomStringConvertible", "trackingEmail"]
+- !private ["PSs23CustomStringConvertible", "updateChildValues"]
+- !private ["PSs23CustomStringConvertible", "value"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "ChildAdded"]
+- ["PSs9Equatable", "Firebase"]
+- !private ["PSs9Equatable", "LiteralSearch"]
+- !private ["PSs9Equatable", "NSNotificationCenter"]
+- !private ["PSs9Equatable", "NSStringCompareOptions"]
+- !private ["PSs9Equatable", "UIApplicationWillResignActiveNotification"]
+- !private ["PSs9Equatable", "Value"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addObserver"]
+- ["PSs9Equatable", "appMovedToBackground"]
+- !private ["PSs9Equatable", "childByAppendingPath"]
+- !private ["PSs9Equatable", "defaultCenter"]
+- !private ["PSs9Equatable", "description"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "myEmail"]
+- !private ["PSs9Equatable", "observeAuthEventWithBlock"]
+- !private ["PSs9Equatable", "observeEventType"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- ["PSs9Equatable", "prepareForSegue"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "ref"]
+- ["PSs9Equatable", "scared"]
+- ["PSs9Equatable", "search"]
+- ["PSs9Equatable", "searchBar"]
+- !private ["PSs9Equatable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs9Equatable", "subscript"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "trackUserButton"]
+- ["PSs9Equatable", "trackingEmail"]
+- !private ["PSs9Equatable", "updateChildValues"]
+- !private ["PSs9Equatable", "value"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "description"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo9FAuthData", "deinit"]
+- !private ["CSo13FDataSnapshot", "value"]
+- !private ["OSC10FEventType", "ChildAdded"]
+- !private ["OSC10FEventType", "Value"]
+- !private ["CSo6FQuery", "childByAppendingPath"]
+- ["CSo6FQuery", "init"]
+- !private ["CSo6FQuery", "observeAuthEventWithBlock"]
+- !private ["CSo6FQuery", "observeEventType"]
+- !private ["CSo6FQuery", "updateChildValues"]
+- !private ["CSo8Firebase", "childByAppendingPath"]
+- ["CSo8Firebase", "init"]
+- !private ["CSo8Firebase", "observeAuthEventWithBlock"]
+- !private ["CSo8Firebase", "observeEventType"]
+- !private ["CSo8Firebase", "updateChildValues"]
+- !private ["PSs8Hashable", "ChildAdded"]
+- ["PSs8Hashable", "Firebase"]
+- !private ["PSs8Hashable", "NSNotificationCenter"]
+- !private ["PSs8Hashable", "NSStringCompareOptions"]
+- !private ["PSs8Hashable", "UIApplicationWillResignActiveNotification"]
+- !private ["PSs8Hashable", "Value"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addObserver"]
+- ["PSs8Hashable", "appMovedToBackground"]
+- !private ["PSs8Hashable", "childByAppendingPath"]
+- !private ["PSs8Hashable", "defaultCenter"]
+- !private ["PSs8Hashable", "description"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "myEmail"]
+- !private ["PSs8Hashable", "observeAuthEventWithBlock"]
+- !private ["PSs8Hashable", "observeEventType"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- ["PSs8Hashable", "prepareForSegue"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "ref"]
+- ["PSs8Hashable", "scared"]
+- ["PSs8Hashable", "search"]
+- ["PSs8Hashable", "searchBar"]
+- !private ["PSs8Hashable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs8Hashable", "subscript"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "trackUserButton"]
+- ["PSs8Hashable", "trackingEmail"]
+- !private ["PSs8Hashable", "updateChildValues"]
+- !private ["PSs8Hashable", "value"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSo17MKMapViewDelegate", "myEmail"]
+- !private ["PSo17MKMapViewDelegate", "trackingEmail"]
+- !private ["PSs14MirrorPathType", "stringByReplacingOccurrencesOfString"]
+- ["PSo8NSCoding", "Firebase"]
+- !private ["PSo8NSCoding", "NSNotificationCenter"]
+- !private ["PSo8NSCoding", "NSStringCompareOptions"]
+- !private ["PSo8NSCoding", "UIApplicationWillResignActiveNotification"]
+- ["PSo8NSCoding", "appMovedToBackground"]
+- !private ["PSo8NSCoding", "description"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "myEmail"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "ref"]
+- ["PSo8NSCoding", "scared"]
+- ["PSo8NSCoding", "search"]
+- ["PSo8NSCoding", "searchBar"]
+- !private ["PSo8NSCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "trackUserButton"]
+- ["PSo8NSCoding", "trackingEmail"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "description"]
+- !private ["PSo9NSCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["CSo7NSError", "description"]
+- ["PSo26NSExtensionRequestHandling", "Firebase"]
+- !private ["PSo26NSExtensionRequestHandling", "NSNotificationCenter"]
+- !private ["PSo26NSExtensionRequestHandling", "NSStringCompareOptions"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplicationWillResignActiveNotification"]
+- ["PSo26NSExtensionRequestHandling", "appMovedToBackground"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "myEmail"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "ref"]
+- ["PSo26NSExtensionRequestHandling", "scared"]
+- ["PSo26NSExtensionRequestHandling", "search"]
+- ["PSo26NSExtensionRequestHandling", "searchBar"]
+- ["PSo26NSExtensionRequestHandling", "trackUserButton"]
+- ["PSo26NSExtensionRequestHandling", "trackingEmail"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo20NSNotificationCenter", "addObserver"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "ChooseMapViewController"]
+- ["CSo8NSObject", "Firebase"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSNotificationCenter"]
+- !private ["CSo8NSObject", "NSNull"]
+- !private ["CSo8NSObject", "NSStringCompareOptions"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "TrackFriendViewController"]
+- !private ["CSo8NSObject", "UIApplicationWillResignActiveNotification"]
+- ["CSo8NSObject", "UISearchBar"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- !private ["CSo8NSObject", "addObserver"]
+- ["CSo8NSObject", "appMovedToBackground"]
+- !private ["CSo8NSObject", "childByAppendingPath"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "description"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "myEmail"]
+- !private ["CSo8NSObject", "observeAuthEventWithBlock"]
+- !private ["CSo8NSObject", "observeEventType"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "ref"]
+- ["CSo8NSObject", "scared"]
+- ["CSo8NSObject", "search"]
+- ["CSo8NSObject", "searchBar"]
+- !private ["CSo8NSObject", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "trackUserButton"]
+- ["CSo8NSObject", "trackingEmail"]
+- !private ["CSo8NSObject", "updateChildValues"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "Firebase"]
+- !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "NSStringCompareOptions"]
+- !private ["PSo16NSObjectProtocol", "UIApplicationWillResignActiveNotification"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- ["PSo16NSObjectProtocol", "appMovedToBackground"]
+- !private ["PSo16NSObjectProtocol", "childByAppendingPath"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "description"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "myEmail"]
+- !private ["PSo16NSObjectProtocol", "observeAuthEventWithBlock"]
+- !private ["PSo16NSObjectProtocol", "observeEventType"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "ref"]
+- ["PSo16NSObjectProtocol", "scared"]
+- ["PSo16NSObjectProtocol", "search"]
+- ["PSo16NSObjectProtocol", "searchBar"]
+- !private ["PSo16NSObjectProtocol", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "trackUserButton"]
+- ["PSo16NSObjectProtocol", "trackingEmail"]
+- !private ["PSo16NSObjectProtocol", "updateChildValues"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "description"]
+- !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo8NSString", "stringByReplacingOccurrencesOfString"]
+- !private ["VSC22NSStringCompareOptions", "LiteralSearch"]
+- !private ["PSs13OptionSetType", "LiteralSearch"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs16RawRepresentable", "ChildAdded"]
+- !private ["PSs16RawRepresentable", "LiteralSearch"]
+- !private ["PSs16RawRepresentable", "Value"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "LiteralSearch"]
+- !private ["PSs10Streamable", "stringByReplacingOccurrencesOfString"]
+- !private ["SS", "deinit"]
+- !private ["SS", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs30StringInterpolationConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs24StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["C6TracMe25TrackFriendViewController", "myEmail"]
+- !private ["C6TracMe25TrackFriendViewController", "trackingEmail"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "Firebase"]
+- !private ["PSo21UIAppearanceContainer", "NSNotificationCenter"]
+- !private ["PSo21UIAppearanceContainer", "NSStringCompareOptions"]
+- !private ["PSo21UIAppearanceContainer", "UIApplicationWillResignActiveNotification"]
+- ["PSo21UIAppearanceContainer", "appMovedToBackground"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "myEmail"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "ref"]
+- ["PSo21UIAppearanceContainer", "scared"]
+- ["PSo21UIAppearanceContainer", "search"]
+- ["PSo21UIAppearanceContainer", "searchBar"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "trackUserButton"]
+- ["PSo21UIAppearanceContainer", "trackingEmail"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo16UIBarPositioning", "text"]
+- ["PSo18UIContentContainer", "Firebase"]
+- !private ["PSo18UIContentContainer", "NSNotificationCenter"]
+- !private ["PSo18UIContentContainer", "NSStringCompareOptions"]
+- !private ["PSo18UIContentContainer", "UIApplicationWillResignActiveNotification"]
+- ["PSo18UIContentContainer", "appMovedToBackground"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "myEmail"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "ref"]
+- ["PSo18UIContentContainer", "scared"]
+- ["PSo18UIContentContainer", "search"]
+- ["PSo18UIContentContainer", "searchBar"]
+- ["PSo18UIContentContainer", "trackUserButton"]
+- ["PSo18UIContentContainer", "trackingEmail"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "Firebase"]
+- !private ["PSo18UIFocusEnvironment", "NSNotificationCenter"]
+- !private ["PSo18UIFocusEnvironment", "NSStringCompareOptions"]
+- !private ["PSo18UIFocusEnvironment", "UIApplicationWillResignActiveNotification"]
+- ["PSo18UIFocusEnvironment", "appMovedToBackground"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "myEmail"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "ref"]
+- ["PSo18UIFocusEnvironment", "scared"]
+- ["PSo18UIFocusEnvironment", "search"]
+- ["PSo18UIFocusEnvironment", "searchBar"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "trackUserButton"]
+- ["PSo18UIFocusEnvironment", "trackingEmail"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "ChooseMapViewController"]
+- ["CSo11UIResponder", "Firebase"]
+- !private ["CSo11UIResponder", "NSDictionary"]
+- !private ["CSo11UIResponder", "NSNotificationCenter"]
+- !private ["CSo11UIResponder", "NSNull"]
+- !private ["CSo11UIResponder", "NSStringCompareOptions"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "TrackFriendViewController"]
+- !private ["CSo11UIResponder", "UIApplicationWillResignActiveNotification"]
+- ["CSo11UIResponder", "UISearchBar"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "appMovedToBackground"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "myEmail"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "ref"]
+- ["CSo11UIResponder", "scared"]
+- ["CSo11UIResponder", "search"]
+- ["CSo11UIResponder", "searchBar"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "trackUserButton"]
+- ["CSo11UIResponder", "trackingEmail"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo11UISearchBar", "text"]
+- ["PSo16UIStateRestoring", "Firebase"]
+- !private ["PSo16UIStateRestoring", "NSNotificationCenter"]
+- !private ["PSo16UIStateRestoring", "NSStringCompareOptions"]
+- !private ["PSo16UIStateRestoring", "UIApplicationWillResignActiveNotification"]
+- ["PSo16UIStateRestoring", "appMovedToBackground"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "myEmail"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "ref"]
+- ["PSo16UIStateRestoring", "scared"]
+- ["PSo16UIStateRestoring", "search"]
+- ["PSo16UIStateRestoring", "searchBar"]
+- ["PSo16UIStateRestoring", "trackUserButton"]
+- ["PSo16UIStateRestoring", "trackingEmail"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "Firebase"]
+- !private ["PSo18UITraitEnvironment", "NSNotificationCenter"]
+- !private ["PSo18UITraitEnvironment", "NSStringCompareOptions"]
+- !private ["PSo18UITraitEnvironment", "UIApplicationWillResignActiveNotification"]
+- ["PSo18UITraitEnvironment", "appMovedToBackground"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "myEmail"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "ref"]
+- ["PSo18UITraitEnvironment", "scared"]
+- ["PSo18UITraitEnvironment", "search"]
+- ["PSo18UITraitEnvironment", "searchBar"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "trackUserButton"]
+- ["PSo18UITraitEnvironment", "trackingEmail"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "ChooseMapViewController"]
+- ["CSo16UIViewController", "Firebase"]
+- !private ["CSo16UIViewController", "NSDictionary"]
+- !private ["CSo16UIViewController", "NSNotificationCenter"]
+- !private ["CSo16UIViewController", "NSNull"]
+- !private ["CSo16UIViewController", "NSStringCompareOptions"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "TrackFriendViewController"]
+- !private ["CSo16UIViewController", "UIApplicationWillResignActiveNotification"]
+- ["CSo16UIViewController", "UISearchBar"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "appMovedToBackground"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "myEmail"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "ref"]
+- ["CSo16UIViewController", "scared"]
+- ["CSo16UIViewController", "search"]
+- ["CSo16UIViewController", "searchBar"]
+- ["CSo16UIViewController", "trackUserButton"]
+- ["CSo16UIViewController", "trackingEmail"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs16_CocoaStringType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "stringByReplacingOccurrencesOfString"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSo25CLLocationManagerDelegate"
+- "PSs11CVarArgType"
+- !private "C6TracMe23ChooseMapViewController"
+- "C6TracMe24ChooseUserViewController"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo9FAuthData"
+- !private "CSo13FDataSnapshot"
+- !private "OSC10FEventType"
+- "CSo6FQuery"
+- "CSo8Firebase"
+- "PSs8Hashable"
+- "SQ"
+- !private "PSs9Indexable"
+- !private "PSo17MKMapViewDelegate"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- !private "CSo20NSNotificationCenter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "VSC22NSStringCompareOptions"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs16RawRepresentable"
+- !private "V10ObjectiveC8Selector"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "C6TracMe25TrackFriendViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo16UIBarPositioning"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "CSo11UISearchBar"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+- !private "subscript"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/andreigurau/Desktop/TracMe/TracMe/build/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+interface-hash: "c9169e83e32018c02c2a2c914c5ec0b6"

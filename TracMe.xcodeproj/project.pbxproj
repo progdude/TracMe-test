@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F30F75E1CB6F68C000FEC39 /* TracMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30F75D1CB6F68C000FEC39 /* TracMe.png */; };
+		0F30F7601CB73B54000FEC39 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30F75F1CB73B54000FEC39 /* search.png */; };
+		0F5D73431C924095008592B8 /* ChooseUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D73421C924095008592B8 /* ChooseUserViewController.swift */; };
+		0F71718A1C924F7700398BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7171881C924F7700398BFD /* Main.storyboard */; };
+		0F7F12591C98C364001C1CF3 /* ChooseMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F12581C98C364001C1CF3 /* ChooseMapViewController.swift */; };
+		0FFA061C1C8F957C003B38DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA061B1C8F957C003B38DE /* AppDelegate.swift */; };
+		0FFA061E1C8F957C003B38DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA061D1C8F957C003B38DE /* ViewController.swift */; };
+		0FFA06231C8F957C003B38DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA06221C8F957C003B38DE /* Assets.xcassets */; };
+		0FFA06261C8F957C003B38DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA06241C8F957C003B38DE /* LaunchScreen.storyboard */; };
+		0FFA062F1C8F9941003B38DE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA062E1C8F9941003B38DE /* SignUpViewController.swift */; };
+		152E60051C9DE65C00DB6D3C /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E60041C9DE65C00DB6D3C /* TrackerViewController.swift */; };
+		152E60071CA1FEF800DB6D3C /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E60061CA1FEF800DB6D3C /* MyAnnotation.swift */; };
+		155425B81CB470B300DC512B /* TrackFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155425B71CB470B300DC512B /* TrackFriendViewController.swift */; };
+		EF86F737563179F6B7091B14 /* Pods_TracMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAD3C8B1940753B5CD81373 /* Pods_TracMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F30F75D1CB6F68C000FEC39 /* TracMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TracMe.png; path = ../../../TracMe.png; sourceTree = "<group>"; };
+		0F30F75F1CB73B54000FEC39 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = ../../../search.png; sourceTree = "<group>"; };
+		0F5D73421C924095008592B8 /* ChooseUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseUserViewController.swift; sourceTree = "<group>"; };
+		0F7171891C924F7700398BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F7F12581C98C364001C1CF3 /* ChooseMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseMapViewController.swift; sourceTree = "<group>"; };
+		0FFA06181C8F957C003B38DE /* TracMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TracMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FFA061B1C8F957C003B38DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FFA061D1C8F957C003B38DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FFA06221C8F957C003B38DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FFA06251C8F957C003B38DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FFA06271C8F957C003B38DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FFA062E1C8F9941003B38DE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		152E60041C9DE65C00DB6D3C /* TrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		152E60061CA1FEF800DB6D3C /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		155425B71CB470B300DC512B /* TrackFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackFriendViewController.swift; sourceTree = "<group>"; };
+		23FFE602C4EB07B63F607487 /* Pods-TracMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TracMe/Pods-TracMe.debug.xcconfig"; sourceTree = "<group>"; };
+		BDAD3C8B1940753B5CD81373 /* Pods_TracMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TracMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D65397BC144B4684F3E978 /* Pods-TracMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TracMe/Pods-TracMe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FFA06151C8F957C003B38DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF86F737563179F6B7091B14 /* Pods_TracMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFA060F1C8F957C003B38DE = {
+			isa = PBXGroup;
+			children = (
+				0FFA061A1C8F957C003B38DE /* TracMe */,
+				0FFA06191C8F957C003B38DE /* Products */,
+				DD62B2447F841344E9F4AA30 /* Pods */,
+				D1245EE9698E74EE248133D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FFA06191C8F957C003B38DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FFA06181C8F957C003B38DE /* TracMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FFA061A1C8F957C003B38DE /* TracMe */ = {
+			isa = PBXGroup;
+			children = (
+				0FFA062D1C8F990D003B38DE /* View Controllers */,
+				0FFA061B1C8F957C003B38DE /* AppDelegate.swift */,
+				0FFA06221C8F957C003B38DE /* Assets.xcassets */,
+				0F30F75D1CB6F68C000FEC39 /* TracMe.png */,
+				0F30F75F1CB73B54000FEC39 /* search.png */,
+				0F7171881C924F7700398BFD /* Main.storyboard */,
+				0FFA06241C8F957C003B38DE /* LaunchScreen.storyboard */,
+				0FFA06271C8F957C003B38DE /* Info.plist */,
+			);
+			path = TracMe;
+			sourceTree = "<group>";
+		};
+		0FFA062D1C8F990D003B38DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FFA061D1C8F957C003B38DE /* ViewController.swift */,
+				0FFA062E1C8F9941003B38DE /* SignUpViewController.swift */,
+				0F5D73421C924095008592B8 /* ChooseUserViewController.swift */,
+				0F7F12581C98C364001C1CF3 /* ChooseMapViewController.swift */,
+				152E60041C9DE65C00DB6D3C /* TrackerViewController.swift */,
+				155425B71CB470B300DC512B /* TrackFriendViewController.swift */,
+				152E60061CA1FEF800DB6D3C /* MyAnnotation.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D1245EE9698E74EE248133D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDAD3C8B1940753B5CD81373 /* Pods_TracMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD62B2447F841344E9F4AA30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23FFE602C4EB07B63F607487 /* Pods-TracMe.debug.xcconfig */,
+				C9D65397BC144B4684F3E978 /* Pods-TracMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FFA06171C8F957C003B38DE /* TracMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FFA062A1C8F957C003B38DE /* Build configuration list for PBXNativeTarget "TracMe" */;
+			buildPhases = (
+				32C213A84CFD1D705049A576 /* Check Pods Manifest.lock */,
+				0FFA06141C8F957C003B38DE /* Sources */,
+				0FFA06151C8F957C003B38DE /* Frameworks */,
+				0FFA06161C8F957C003B38DE /* Resources */,
+				C05EA05F5D26CDAEB7AA15C3 /* Embed Pods Frameworks */,
+				6D8E043E04225A06CC9A545B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TracMe;
+			productName = TracMe;
+			productReference = 0FFA06181C8F957C003B38DE /* TracMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FFA06101C8F957C003B38DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Archit Rathi";
+				TargetAttributes = {
+					0FFA06171C8F957C003B38DE = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 97JJ37LF7T;
+					};
+				};
+			};
+			buildConfigurationList = 0FFA06131C8F957C003B38DE /* Build configuration list for PBXProject "TracMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FFA060F1C8F957C003B38DE;
+			productRefGroup = 0FFA06191C8F957C003B38DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FFA06171C8F957C003B38DE /* TracMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FFA06161C8F957C003B38DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F30F7601CB73B54000FEC39 /* search.png in Resources */,
+				0F71718A1C924F7700398BFD /* Main.storyboard in Resources */,
+				0F30F75E1CB6F68C000FEC39 /* TracMe.png in Resources */,
+				0FFA06261C8F957C003B38DE /* LaunchScreen.storyboard in Resources */,
+				0FFA06231C8F957C003B38DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32C213A84CFD1D705049A576 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8E043E04225A06CC9A545B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TracMe/Pods-TracMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05EA05F5D26CDAEB7AA15C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TracMe/Pods-TracMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FFA06141C8F957C003B38DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E60071CA1FEF800DB6D3C /* MyAnnotation.swift in Sources */,
+				0F5D73431C924095008592B8 /* ChooseUserViewController.swift in Sources */,
+				0FFA062F1C8F9941003B38DE /* SignUpViewController.swift in Sources */,
+				0FFA061E1C8F957C003B38DE /* ViewController.swift in Sources */,
+				152E60051C9DE65C00DB6D3C /* TrackerViewController.swift in Sources */,
+				0F7F12591C98C364001C1CF3 /* ChooseMapViewController.swift in Sources */,
+				155425B81CB470B300DC512B /* TrackFriendViewController.swift in Sources */,
+				0FFA061C1C8F957C003B38DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F7171881C924F7700398BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7171891C924F7700398BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FFA06241C8F957C003B38DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFA06251C8F957C003B38DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FFA06281C8F957C003B38DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FFA06291C8F957C003B38DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FFA062B1C8F957C003B38DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FFE602C4EB07B63F607487 /* Pods-TracMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TracMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.TracMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0FFA062C1C8F957C003B38DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D65397BC144B4684F3E978 /* Pods-TracMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TracMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.TracMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FFA06131C8F957C003B38DE /* Build configuration list for PBXProject "TracMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFA06281C8F957C003B38DE /* Debug */,
+				0FFA06291C8F957C003B38DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FFA062A1C8F957C003B38DE /* Build configuration list for PBXNativeTarget "TracMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFA062B1C8F957C003B38DE /* Debug */,
+				0FFA062C1C8F957C003B38DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FFA06101C8F957C003B38DE /* Project object */;
+}
